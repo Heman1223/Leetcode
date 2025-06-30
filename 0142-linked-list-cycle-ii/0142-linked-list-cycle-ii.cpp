@@ -16,9 +16,9 @@ public:
             slow = slow->next;
             fast = fast->next->next;
             if(slow == fast){
-                while(temp != slow->next){
+                while(temp != slow){
                     temp = temp->next;
-                    count++;
+                    slow = slow->next;
                 }
                 return temp;
             }
