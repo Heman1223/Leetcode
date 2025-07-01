@@ -23,10 +23,6 @@ public:
                 B = B->next;
             }
         }
-        if(A == B){
-            return A;
-        }else{
-            return NULL;
-        }
+        return A;
     }
 };
