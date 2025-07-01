@@ -23,12 +23,11 @@ public:
         temp->next = head;
         k = k%n;
         ListNode* curr = head;
-        for(int i = 0;i<(n - k) - 1 ;i++){
+        for(int i = 0;i < (n - k) - 1 ;i++){
             curr = curr->next;
         }
         ListNode* newhead = curr->next;
         curr->next = NULL;
         return newhead;
-
     }
 };
