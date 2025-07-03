@@ -1,7 +1,7 @@
 class Solution {
 private:
     void solve(vector<int> nums,vector<int> output,int index,vector<vector<int>> &ans){
-        if(index >= nums.size()){
+        if(index == nums.size()){
             ans.push_back(output);
             return;
         }
