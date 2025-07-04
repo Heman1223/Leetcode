@@ -12,7 +12,7 @@ public:
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> temp;
-        sort(nums.begin(),nums.end());
+        //sort(nums.begin(),nums.end());
         function(nums,0,temp,res);
         return res;
     }
