@@ -11,21 +11,19 @@
  */
 class Solution {
 public:
-    void function(TreeNode* root,int &count,int maxv){
-        if(!root) return;
-        if(root->val >= maxv){
-            count++;
-            maxv = root->val;
-        }
-        function(root->left,count,maxv);
-        function(root->right,count,maxv);
-        
-    }
-    int goodNodes(TreeNode* root) {
-        if(!root) return 0;
+     int dfs(TreeNode* node, int maxSoFar) {
+        if (!node) return 0;
         int count = 0;
-        int maxv = root->val;
-        function(root,count,maxv);
+        if (node->val >= maxSoFar) {
+            count = 1;
+            maxSoFar = node->val;
+        }
+        count += dfs(node->left, maxSoFar);
+        count += dfs(node->right, maxSoFar);
         return count;
+    }
+
+    int goodNodes(TreeNode* root) {
+        return dfs(root, root->val);
     }
 };
