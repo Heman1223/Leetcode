@@ -11,7 +11,7 @@ public:
                     q.push({i,j});
                     zeroes++;
                 }else{
-                    mat[i][j] = INT_MAX;
+                    mat[i][j] = -1;
                 }
             }
         }
@@ -26,12 +26,11 @@ public:
                 for(int j=0;j < 4;j++){
                     int x = node[0] + dx[j];
                     int y = node[1] + dy[j];
-                    if (x >= 0 && y >= 0 && x < row && y < col) {
-                        if (mat[x][y] > mat[node[0]][node[1]] + 1) {
-                            mat[x][y] = mat[node[0]][node[1]] + 1;
-                            q.push({x, y});
-                        }
+                    if (x >= 0 && y >= 0 && x < row && y < col && mat[x][y] == -1) {
+                        mat[x][y] = mat[node[0]][node[1]] + 1;
+                        q.push({x, y});
                     }
+                    
                 }
             }
         }
