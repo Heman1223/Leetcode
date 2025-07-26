@@ -16,46 +16,16 @@ public:
         ListNode* curr1 = l1;
         ListNode* curr2 = l2;
         int sum = 0,carry = 0;
-        while(curr1 && curr2){
-            sum = curr1->val + curr2->val + carry;
-            carry = 0;
-            if(sum > 9){
-                carry = 1;
-                sum = sum%10;
-            }
-            ListNode* newNode = new ListNode(sum);
-            curr->next = newNode;
-            curr = newNode;
-            curr1 = curr1->next;
-            curr2 = curr2->next;
-        }
-        while(curr1){
-            sum = curr1->val + carry;
-            carry = 0;
-            if(sum > 9){
-                carry = 1;
-                sum = sum%10;
-            }
-            ListNode* newNode = new ListNode(sum);
-            curr->next = newNode;
-            curr = newNode;
-            curr1 = curr1->next;
-        }
-        while(curr2){
-            sum = curr2->val + carry;
-            carry = 0;
-            if(sum > 9){
-                carry = 1;
-                sum = sum%10;
-            }
-            ListNode* newNode = new ListNode(sum);
-            curr->next = newNode;
-            curr = newNode;
-            curr2 = curr2->next;
-        }
-        if(carry == 1){
-            ListNode* newNode = new ListNode(1);
-            curr->next = newNode;
+        while(curr1 || curr2 || carry) {
+            int val1 = curr1 ? curr1->val : 0;
+            int val2 = curr2 ? curr2->val : 0;
+            sum = val1 + val2 + carry;
+            carry = sum / 10;
+            sum = sum % 10;
+            curr->next = new ListNode(sum);
+            curr = curr->next;
+            if(curr1) curr1 = curr1->next;
+            if(curr2) curr2 = curr2->next;
         }
         return ans->next;
     }
