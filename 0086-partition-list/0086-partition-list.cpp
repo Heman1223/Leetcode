@@ -11,26 +11,22 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        if(!head || !head->next) return head;
-        ListNode* before_head = new ListNode(0);
-        ListNode* before = before_head;
-        ListNode* after_head = new ListNode(0);
-        ListNode* after = after_head;
-        
-        while(head) {
-            if(head->val < x) {
+        ListNode* beforeh = new ListNode(0);
+        ListNode* afterh = new ListNode(0);
+        ListNode* before = beforeh;
+        ListNode* after = afterh;
+        while(head){
+            if(head->val < x){
                 before->next = head;
                 before = before->next;
-            } else {
+            }else{
                 after->next = head;
                 after = after->next;
             }
             head = head->next;
         }
-        after->next = nullptr;          
-        before->next = after_head->next; 
-        
-        return before_head->next;
+        after->next = NULL;
+        before->next = afterh->next;
+        return beforeh->next;
     }
 };
-
