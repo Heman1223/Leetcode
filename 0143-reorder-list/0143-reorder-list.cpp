@@ -9,11 +9,12 @@
  * };
  */
 class Solution {
-private:
+public:
     ListNode* reverse(ListNode* head){
+        if(!head || !head->next) return head;
+        ListNode* next = NULL;
         ListNode* curr = head;
         ListNode* prev = NULL;
-        ListNode* next = NULL;
         while(curr){
             next = curr->next;
             curr->next = prev;
@@ -22,33 +23,28 @@ private:
         }
         return prev;
     }
-public:
     void reorderList(ListNode* head) {
-       if(!head || !head->next) return;
 
-        // Step 1: Find middle
         ListNode* slow = head;
         ListNode* fast = head;
-        while(fast->next && fast->next->next){
+
+        while(fast && fast->next){
             slow = slow->next;
             fast = fast->next->next;
         }
-
-        // Step 2: Reverse second half
-        ListNode* second = reverse(slow->next);
-        slow->next = NULL; // Cut the list
-
-        // Step 3: Merge first and second half
         ListNode* first = head;
+        ListNode* second = reverse(slow->next);
+        slow->next = NULL;
+
         while(second){
-            ListNode* tmp1 = first->next;
-            ListNode* tmp2 = second->next;
+            ListNode* temp1 = first->next;
+            ListNode* temp2 = second->next;
 
             first->next = second;
-            second->next = tmp1;
+            second->next = temp1;
 
-            first = tmp1;
-            second = tmp2;
+            first = temp1;
+            second = temp2;
         }
     }
 };
