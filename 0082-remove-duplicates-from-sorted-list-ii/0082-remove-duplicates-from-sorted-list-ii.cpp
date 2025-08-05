@@ -14,8 +14,8 @@ public:
         if(!head || !head->next) return head;
         ListNode* dummy = new ListNode(0);
         dummy->next = head;
-        ListNode* curr = head;
         ListNode* prev = dummy;
+        ListNode* curr = head;
 
         while(curr){
             bool duplicate = false;
@@ -23,15 +23,13 @@ public:
                 duplicate = true;
                 curr = curr->next;
             }
-            if(duplicate){ 
+            if(duplicate){
                 prev->next = curr->next;
-            }
-            else{
-                 prev = prev->next;
+            }else{
+                prev = prev->next;
             }
             curr = curr->next;
         }
-        
         return dummy->next;
     }
 };
