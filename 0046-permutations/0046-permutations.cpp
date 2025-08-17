@@ -1,8 +1,8 @@
 class Solution {
-private:
-    void function(vector<int> &nums,int start,vector<int> temp,vector<vector<int>> &res){
-        
-        if(temp.size() == nums.size()){ 
+public:
+
+    void function(vector<int> &nums,vector<vector<int>> &res,vector<int> &temp,int start){
+        if(temp.size() == nums.size()){
             res.push_back(temp);
             return;
         }
@@ -11,15 +11,15 @@ private:
                 continue;
             }
             temp.push_back(nums[i]);
-            function(nums,i + 1,temp,res);
+            function(nums,res,temp,i + 1);
             temp.pop_back();
         }
     }
-public:
+
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> temp;
-        function(nums,0,temp,res);
+        function(nums,res,temp,0);
         return res;
     }
 };
