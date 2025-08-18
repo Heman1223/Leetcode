@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    void function(vector<int> &nums,vector<vector<int>> &res,vector<int> &temp,int start){
+    void function(vector<int> &nums,vector<vector<int>> &res,vector<int> &temp){
         if(temp.size() == nums.size()){
             res.push_back(temp);
             return;
@@ -11,7 +11,7 @@ public:
                 continue;
             }
             temp.push_back(nums[i]);
-            function(nums,res,temp,i + 1);
+            function(nums,res,temp);
             temp.pop_back();
         }
     }
@@ -19,7 +19,7 @@ public:
     vector<vector<int>> permute(vector<int>& nums) {
         vector<vector<int>> res;
         vector<int> temp;
-        function(nums,res,temp,0);
+        function(nums,res,temp);
         return res;
     }
 };
