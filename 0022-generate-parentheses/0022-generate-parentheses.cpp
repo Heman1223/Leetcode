@@ -1,22 +1,21 @@
 class Solution {
-private:
-    void function(string temp,vector<string> &ans,int open,int close,int n){
-        if(temp.size() == 2 * n) {
+public:
+    void solve(int n,string temp,vector<string> &ans,int open,int close){
+        if(temp.size() == n * 2){
             ans.push_back(temp);
             return;
         }
         if(open < n){
-            function(temp + "(",ans,open + 1,close,n);
+            solve(n,temp + "(",ans,open + 1,close);
         }
-        if(open > close){
-            function(temp + ")",ans,open,close + 1,n);
+        if(close < open){
+            solve(n,temp + ")",ans,open,close + 1);
         }
-        
+        return;
     }
-public:
     vector<string> generateParenthesis(int n) {
         vector<string> ans;
-        function("",ans,0,0,n);
+        solve(n,"",ans,0,0);
         return ans;
     }
 };
