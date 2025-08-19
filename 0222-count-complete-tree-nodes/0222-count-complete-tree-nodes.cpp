@@ -15,6 +15,6 @@ public:
         if(root == NULL){
             return NULL;
         }
-        return countNodes(root->right) + countNodes(root->left) + 1;
+        return countNodes(root->left) + countNodes(root->right) + 1;
     }
 };
