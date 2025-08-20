@@ -11,18 +11,18 @@
  */
 class Solution {
 public:
-    void inorder(TreeNode* root,int &sum,bool isLeft){
+    void solve(TreeNode* root,int &sum,bool flag){
         if(!root) return;
-        inorder(root->left,sum,true);
-        if(!root->left && !root->right && isLeft){
+        solve(root->left,sum,true);
+        if(!root->left && !root->right && flag){
             sum += root->val;
         }
-        inorder(root->right,sum,false);
+        solve(root->right,sum,false);
         return;
     }
     int sumOfLeftLeaves(TreeNode* root) {
         int sum = 0;
-        inorder(root,sum,false);
+        solve(root,sum,false);
         return sum;
     }
 };
