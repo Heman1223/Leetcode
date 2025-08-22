@@ -11,19 +11,24 @@
  */
 class Solution {
 public:
-    void function(TreeNode* root,int targetSum,int currSum,bool &ans){
+    void solve(TreeNode* root,int targetSum,int currSum,bool &ans){
         if(!root) return;
         currSum += root->val;
         if(!root->left && !root->right){
-            if(targetSum == currSum) ans = true;
+            if(targetSum == currSum){
+                ans = true;
+                return;
+            }
         }
-        function(root->left,targetSum,currSum,ans);
-        function(root->right,targetSum,currSum,ans);
+        solve(root->left,targetSum,currSum,ans);
+        solve(root->right,targetSum,currSum,ans);
         return;
     }
+
+
     bool hasPathSum(TreeNode* root, int targetSum) {
         bool ans = false;
-        function(root,targetSum,0,ans);
+        solve(root,targetSum,0,ans);
         return ans;
     }
 };
