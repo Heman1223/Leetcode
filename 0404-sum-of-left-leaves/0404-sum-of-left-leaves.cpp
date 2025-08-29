@@ -11,13 +11,13 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root,int &sum,bool flag){
+    void solve(TreeNode* root,int& sum,bool flag){
         if(!root) return;
         solve(root->left,sum,true);
         if(!root->left && !root->right && flag){
             sum += root->val;
         }
-        solve(root->right,sum,false);
+        solve(root->left,sum,false);
         return;
     }
     int sumOfLeftLeaves(TreeNode* root) {
