@@ -4,7 +4,7 @@ public:
         vector<string> arr;
         string str = "";
         for(char i : s){
-            if(isalpha(i)){
+            if(isalnum(i)){
                 str += i;
             }else if(i == ' '){
                 if(str.length() == 0){
@@ -18,7 +18,7 @@ public:
             arr.push_back(str);
         }
         string ans = "";
-        for(int i = arr.size() - 1;i >0;i--){
+        for(int i = arr.size() - 1;i > 0;i--){
             ans = ans + arr[i] + " ";
         }
         ans = ans + arr[0];
