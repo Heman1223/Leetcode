@@ -1,27 +1,16 @@
 class Solution {
 public:
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
-        unordered_map<int,bool> map;
+        unordered_map<int,bool> mp;
         vector<int> ans;
-        if(nums1.size() > nums2.size()){
-            for(int num : nums1){
-                map[num] = true;
-            }
-            for(int num : nums2){
-                if(map[num] == true){
-                    map[num] = false;
-                    ans.push_back(num);
-                }
-            }
-        }else{
-            for(int num : nums2){
-                map[num] = true;
-            }
-            for(int num : nums1){
-                if(map[num] == true){
-                    map[num] = false;
-                    ans.push_back(num);
-                }
+        for(int x : nums1){
+            mp[x] = true;
+        }
+
+        for(int x : nums2){
+            if(mp[x] == true){
+                ans.push_back(x);
+                mp[x] = false;
             }
         }
         return ans;
