@@ -11,18 +11,24 @@
  */
 class Solution {
 public:
-    void solve(TreeNode* root,int& sum,bool flag){
-        if(!root) return;
-        solve(root->left,sum,true);
-        if(!root->left && !root->right && flag){
-            sum += root->val;
+    int sumleft(TreeNode* root){
+        if (!root) return 0;
+
+        int sum = 0;
+
+        // check if left child is a leaf
+        if (root->left && !root->left->left && !root->left->right) {
+            sum += root->left->val;
         }
-        solve(root->left,sum,false);
-        return;
+
+        sum += sumOfLeftLeaves(root->left);
+        sum += sumOfLeftLeaves(root->right);
+
+        return sum;
     }
     int sumOfLeftLeaves(TreeNode* root) {
-        int sum = 0;
-        solve(root,sum,false);
+        bool flag = true;
+        int sum = sumleft(root);
         return sum;
     }
 };
