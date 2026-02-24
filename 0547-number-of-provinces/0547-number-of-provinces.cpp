@@ -1,36 +1,28 @@
 class Solution {
 public:
-    void DFS(int i,vector<vector<int>> adj,vector<int> &vis){
-        vis[i] = 1;
-        for(auto it : adj[i]){
-            if(!vis[it]){
-                DFS(it,adj,vis);
+
+    void dfs(int city, vector<vector<int>>& isConnected, vector<bool>& isVisited){
+        isVisited[city] = true;
+        
+        for(int neighbour = 0; neighbour < isConnected.size();neighbour++){
+            if(isConnected[city][neighbour] == 1 && !isVisited[neighbour]){
+                dfs(neighbour,isConnected,isVisited);
             }
         }
     }
-    
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int V = isConnected.size();
-        vector<vector<int>> adj(V);
+        int n = isConnected.size();
+        vector<bool> isVisited(n, false);
+        int count = 0;
 
-        //To change Matrix to Adjacency List
-        for(int i = 0; i < V ; i++){
-            for(int j = 0; j < V ; j++){
-                if(isConnected[i][j] == 1 && i != j){
-                    adj[i].push_back(j);
-                    adj[j].push_back(i);
-                }
+        //Loop over all the cities
+        for(int i = 0;i < n;i++){
+            if(!isVisited[i]){
+                // DFS
+                dfs(i,isConnected,isVisited);
+                count++;
             }
         }
-
-        vector<int> vis(V,0);
-        int cnt = 0;
-        for(int i = 0; i < V ; i++){
-            if(!vis[i]){
-                cnt++;
-                DFS(i,adj,vis);
-            }
-        }
-        return cnt;
+        return count;
     }
 };
