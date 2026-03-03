@@ -7,20 +7,25 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 <!---LeetCode Topics End-->
