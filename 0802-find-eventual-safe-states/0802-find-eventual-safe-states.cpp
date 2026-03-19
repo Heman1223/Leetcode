@@ -1,39 +1,34 @@
 class Solution {
 public:
-    bool dfs(int node,vector<vector<int>> &graph, vector<int> &vis,vector<int> &pathvis,vector<int> &check){
-        vis[node] = 1;
-        pathvis[node] = 1;
-        
-        for(auto it : graph[node]){
-            if(!vis[it]){
-                if(dfs(it,graph,vis,pathvis,check) == true){
-                    check[node] = 0;
-                    return true;
-                }
-            }else if(pathvis[it]){
-                check[node] = 0;
-                return true;
-            }
-        }
-        check[node] = 1;
-        pathvis[node] = 0;
-        return false;
-    }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
         int V = graph.size();
-        vector<int> vis(V,0);
-        vector<int> pathvis(V,0);
-        vector<int> check(V,0);
-        
-        vector<int> safenodes;
-        
-        for(int i = 0 ; i < V;i++){
-            dfs(i,graph,vis,pathvis,check);
-        }
-        
+        vector<int> indegree(V);
+        vector<vector<int>> revadj(V);
         for(int i = 0;i < V;i++){
-            if(check[i] == 1) safenodes.push_back(i);
+            for(auto it : graph[i]){
+                revadj[it].push_back(i);
+                indegree[i]++;
+            }
         }
-        return safenodes;
+        queue<int> q;
+        for(int i = 0;i < V;i++){
+            if(indegree[i] == 0){
+                q.push(i);
+            }
+        }
+        vector<int> topo;
+        while(!q.empty()){
+            int node = q.front();
+            q.pop();
+            topo.push_back(node);
+            for(auto it : revadj[node]){
+                indegree[it]--;
+                if(indegree[it] == 0){
+                    q.push(it);
+                }
+            }
+        }
+        sort(topo.begin(),topo.end());
+        return topo;
     }
 };
