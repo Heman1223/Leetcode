@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/Heman1223/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Heman1223/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Heman1223/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
@@ -83,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Heman1223/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
 ## Backtracking
