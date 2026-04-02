@@ -3,38 +3,35 @@ public:
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         int row = grid.size();
         int col = grid[0].size();
-        queue<vector<int>> q;
         if(grid[0][0] == 1 || grid[row - 1][col - 1] == 1){
             return -1;
         }
+        int count = 1;
+        queue<pair<int,int>> q;
         q.push({0,0});
         grid[0][0] = 1;
-        int length = 1;
-
         vector<int> dx = {1,-1,0,0,1,1,-1,-1};
         vector<int> dy = {0,0,1,-1,1,-1,1,-1};
+        
         while(!q.empty()){
             int size = q.size();
             for(int i = 0;i < size;i++){
-                vector<int> node = q.front();
+                int x = q.front().first;
+                int y = q.front().second;
                 q.pop();
-                int xcurr = node[0];
-                int ycurr = node[1];
-                if(xcurr == row - 1 && ycurr == col - 1){
-                    return length;
+                if(x == row - 1 && y == col - 1){
+                    return count;
                 }
-
-                for(int j = 0 ; j < 8 ;j++){
-                    int x = xcurr + dx[j];
-                    int y = ycurr + dy[j];
-
-                    if(x >= 0 && x < row && y >= 0 && y < col && grid[x][y] == 0){
-                        grid[x][y] = 1;
-                        q.push({x,y});
+                for(int j = 0; j < 8;j++){
+                    int currx = x + dx[j];
+                    int curry = y + dy[j];
+                    if(currx >= 0 && currx < row && curry >= 0 && curry < col && grid[currx][curry] == 0){
+                        grid[currx][curry] = 1;
+                        q.push({currx,curry});
                     }
                 }
             }
-            length++;
+            count++;
         }
         return -1;
     }
