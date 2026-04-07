@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/Heman1223/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/Heman1223/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0733-flood-fill](https://github.com/Heman1223/Leetcode/tree/main/0733-flood-fill/) | Easy |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/Heman1223/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
@@ -142,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
 ## Segment Tree
 | Problem Name | Difficulty |
@@ -178,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Heman1223/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 ## Shortest Path
@@ -203,4 +207,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0049-group-anagrams](https://github.com/Heman1223/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
