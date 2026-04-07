@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/Heman1223/Leetcode/tree/main/0001-two-sum/) | Easy |
+| [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0049-group-anagrams](https://github.com/Heman1223/Leetcode/tree/main/0049-group-anagrams/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Heman1223/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
@@ -94,15 +95,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/Heman1223/Leetcode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/Heman1223/Leetcode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0283-move-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
@@ -135,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
