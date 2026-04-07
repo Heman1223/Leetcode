@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/Heman1223/Leetcode/tree/main/0001-two-sum/) | Easy |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
+| [0238-product-of-array-except-self](https://github.com/Heman1223/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0283-move-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/Heman1223/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0238-product-of-array-except-self](https://github.com/Heman1223/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
 | [2906-construct-product-matrix](https://github.com/Heman1223/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/Heman1223/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
