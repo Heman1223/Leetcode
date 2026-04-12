@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0733-flood-fill](https://github.com/Heman1223/Leetcode/tree/main/0733-flood-fill/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/Heman1223/Leetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0860-lemonade-change](https://github.com/Heman1223/Leetcode/tree/main/0860-lemonade-change/) | Easy |
 | [0994-rotting-oranges](https://github.com/Heman1223/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -153,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
+| [0746-min-cost-climbing-stairs](https://github.com/Heman1223/Leetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Heman1223/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Heman1223/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 ## Math
