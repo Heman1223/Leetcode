@@ -14,8 +14,8 @@ public:
                 low--;
                 high++;
             }
-            if(low < 0) low = 0;
-            if(high < 0) return false;
+            if(low < 0) low = 0; // low cant be less than 0
+            if(high < 0) return false; // Invalid too many ')' 
         }
         return low == 0;
     }
