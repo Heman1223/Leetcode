@@ -1,23 +1,31 @@
 class Solution {
 public:
-    void function(vector<int> &candidates,vector<vector<int>> &ans,vector<int> &comb,int target,int idx){
-        if(target == 0){
-            ans.push_back(comb);
+    void func(vector<int>& candidates, vector<int>& temp, vector<vector<int>>& ans, int i, int target) {
+        if (target == 0) {
+            ans.push_back(temp);
             return;
         }
-        for(int i = idx ; i < candidates.size();i++){
-            if(i > idx && candidates[i] == candidates[i - 1]) continue;
-            if(candidates[i] > target) break;
-            comb.push_back(candidates[i]);
-            function(candidates,ans,comb,target - candidates[i],i + 1);
-            comb.pop_back();
+        if (i == candidates.size() || target < 0) {
+            return;
         }
+
+        // Include current element
+        temp.push_back(candidates[i]);
+        func(candidates, temp, ans, i + 1, target - candidates[i]);
+        temp.pop_back();
+
+        // Skip duplicates
+        while (i + 1 < candidates.size() && candidates[i] == candidates[i + 1]) i++;
+
+        // Exclude current element
+        func(candidates, temp, ans, i + 1, target);
     }
+
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        sort(candidates.begin(),candidates.end());
+        vector<int> temp;
         vector<vector<int>> ans;
-        vector<int> comb;
-        function(candidates,ans,comb,target,0);
+        sort(candidates.begin(), candidates.end());
+        func(candidates, temp, ans, 0, target);
         return ans;
     }
 };
