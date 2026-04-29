@@ -1,35 +1,33 @@
 class Solution {
-private:
-    bool isPalindrome(string s,int start,int end){
-        
-        while (start < end) {
-            if (s[start] != s[end]) {
-                return false;
-            }
+public:
+    bool palindrome(string &s, int start, int end){
+        while(start < end){
+            if(s[start] != s[end]) return false;
             start++;
             end--;
         }
         return true;
     }
-    void function(string s,vector<string> comb,vector<vector<string>>& ans,int start){
-        if(start == s.size()){
-            ans.push_back(comb);
+
+    void func(int i, vector<string> &temp, vector<vector<string>> &ans, string &s){
+        if(i == s.size()){
+            ans.push_back(temp);
             return;
         }
-        for(int i = start; i < s.size(); i++) {  // fixed start index
-            if(isPalindrome(s, start, i)) {
-                comb.push_back(s.substr(start, i - start + 1));
-                function(s, comb, ans, i + 1);
-                comb.pop_back();
+
+        for(int j = i; j < s.size(); j++){
+            if(palindrome(s, i, j)){
+                temp.push_back(s.substr(i, j - i + 1));
+                func(j + 1, temp, ans, s);
+                temp.pop_back(); // backtrack
             }
         }
     }
- 
-public:
+
     vector<vector<string>> partition(string s) {
-        vector<string> comb;
         vector<vector<string>> ans;
-        function(s,comb,ans,0);
+        vector<string> temp;
+        func(0, temp, ans, s);
         return ans;
     }
 };
