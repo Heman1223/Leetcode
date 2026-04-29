@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/Heman1223/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Heman1223/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0135-candy](https://github.com/Heman1223/Leetcode/tree/main/0135-candy/) | Hard |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/Heman1223/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
@@ -126,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0093-restore-ip-addresses](https://github.com/Heman1223/Leetcode/tree/main/0093-restore-ip-addresses/) | Medium |
 | [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0131-palindrome-partitioning](https://github.com/Heman1223/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/Heman1223/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
@@ -171,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0127-word-ladder](https://github.com/Heman1223/Leetcode/tree/main/0127-word-ladder/) | Hard |
 | [0128-longest-consecutive-sequence](https://github.com/Heman1223/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
@@ -208,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/Heman1223/Leetcode/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Heman1223/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
 | [0198-house-robber](https://github.com/Heman1223/Leetcode/tree/main/0198-house-robber/) | Medium |
 | [0213-house-robber-ii](https://github.com/Heman1223/Leetcode/tree/main/0213-house-robber-ii/) | Medium |
@@ -337,5 +341,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
+## Memoization
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 <!---LeetCode Topics End-->
