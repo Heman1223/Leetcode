@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-lemonade-change](https://github.com/Heman1223/Leetcode/tree/main/0860-lemonade-change/) | Easy |
 | [0994-rotting-oranges](https://github.com/Heman1223/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Heman1223/Leetcode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [3712-sum-of-elements-with-frequency-divisible-by-k](https://github.com/Heman1223/Leetcode/tree/main/3712-sum-of-elements-with-frequency-divisible-by-k/) | Easy |
@@ -229,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0396-rotate-function](https://github.com/Heman1223/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Heman1223/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
+| [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Heman1223/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Heman1223/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 ## Divide and Conquer
@@ -246,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/Heman1223/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2906-construct-product-matrix](https://github.com/Heman1223/Leetcode/tree/main/2906-construct-product-matrix/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/Heman1223/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
@@ -305,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Heman1223/Leetcode/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
