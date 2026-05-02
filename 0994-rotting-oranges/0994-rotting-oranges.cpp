@@ -1,15 +1,14 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int rows = grid.size();
-        int cols = grid[0].size();
-
-        queue<pair<int,int>> q;
+        int n = grid.size();
+        int m = grid[0].size();
         int fresh = 0;
+        queue<pair<int,int>> q;
         int min = 0;
 
-        for(int i = 0 ; i < rows;i++){
-            for(int j = 0;j < cols;j++){
+        for(int i = 0;i < n ; i++){
+            for(int j = 0; j < m;j++){
                 if(grid[i][j] == 2){
                     q.push({i,j});
                 }else if(grid[i][j] == 1){
@@ -22,19 +21,18 @@ public:
 
         while(!q.empty()){
             int size = q.size();
-            for(int i = 0 ; i < size;i++){
-                auto it = q.front();
-                int currx = it.first;
-                int curry = it.second;
+            for(int i = 0;i < size;i++){
+                int x = q.front().first;
+                int y = q.front().second;
                 q.pop();
                 for(int j = 0;j < 4;j++){
-                    int nextx = dx[j] + currx;
-                    int nexty = dy[j] + curry;
-
-                    if(nexty >= 0 && nextx >= 0 && nextx < rows && nexty < cols && grid[nextx][nexty] == 1){
-                        grid[nextx][nexty] = 2;
-                        q.push({nextx,nexty});
+                    int nx = x + dx[j];
+                    int ny = y + dy[j];
+                    
+                    if(nx >= 0 && nx < n && ny >= 0 && ny < m && grid[nx][ny] == 1){
                         fresh--;
+                        q.push({nx,ny});
+                        grid[nx][ny] = 2;
                     }
                 }
             }
