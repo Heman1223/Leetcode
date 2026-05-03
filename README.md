@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/Heman1223/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
+| [0796-rotate-string](https://github.com/Heman1223/Leetcode/tree/main/0796-rotate-string/) | Easy |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Heman1223/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1529-minimum-suffix-flips](https://github.com/Heman1223/Leetcode/tree/main/1529-minimum-suffix-flips/) | Medium |
@@ -361,4 +362,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
+## String Matching
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0796-rotate-string](https://github.com/Heman1223/Leetcode/tree/main/0796-rotate-string/) | Easy |
 <!---LeetCode Topics End-->
