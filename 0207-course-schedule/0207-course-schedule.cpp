@@ -1,11 +1,11 @@
 class Solution {
 public:
-    bool dfs(int node,vector<int> &vis,vector<int> &pathvis,vector<vector<int>> &adj){
+    bool dfs(int node,vector<int> &vis,vector<vector<int>> &adj,vector<int> &pathvis){
         vis[node] = 1;
         pathvis[node] = 1;
         for(auto it : adj[node]){
             if(!vis[it]){
-                if(dfs(it,vis,pathvis,adj)){
+                if(dfs(it,vis,adj,pathvis)){
                     return true;
                 }
             }else if(pathvis[it]){
@@ -22,11 +22,11 @@ public:
             int v = it[1];
             adj[v].push_back(u);
         }
-        vector<int> vis(numCourses,0);
-        vector<int> pathvis(numCourses,0);
-        for(int i = 0;i < numCourses;i++){
+        vector<int> vis(numCourses);
+        vector<int> pathvis(numCourses);
+        for(int i = 0 ; i < numCourses ;i++){
             if(!vis[i]){
-                if(dfs(i,vis,pathvis,adj)){
+                if(dfs(i,vis,adj,pathvis)){
                     return false;
                 }
             }
