@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0061-rotate-list](https://github.com/Heman1223/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0283-move-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0283-move-zeroes/) | Easy |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Heman1223/Leetcode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0061-rotate-list](https://github.com/Heman1223/Leetcode/tree/main/0061-rotate-list/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
