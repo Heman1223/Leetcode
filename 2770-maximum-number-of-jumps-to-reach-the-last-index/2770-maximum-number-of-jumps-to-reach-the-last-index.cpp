@@ -14,7 +14,7 @@ public:
 
             for (int j = i + 1; j < n; j++) {
                 
-                long long diff = 1LL * nums[j] - nums[i];
+                int diff = nums[j] - nums[i];
 
                 if (diff >= -target && diff <= target) {
                     
