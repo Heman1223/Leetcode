@@ -82,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Breadth-First Search
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
+| [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
 ## Union-Find
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1071-greatest-common-divisor-of-strings](https://github.com/Heman1223/Leetcode/tree/main/1071-greatest-common-divisor-of-strings/) | Easy |
 | [1529-minimum-suffix-flips](https://github.com/Heman1223/Leetcode/tree/main/1529-minimum-suffix-flips/) | Medium |
+| [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Heman1223/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -315,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/Heman1223/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
