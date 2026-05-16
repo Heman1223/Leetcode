@@ -10,12 +10,8 @@ public:
         return s;
     }
     string rotate(string a,int b){
-        for(int j = 0;j < b;j++){
-            for(int i = a.size() - 2;i >= 0;i--){
-                swap(a[i],a[i + 1]);
-            }
-        }
-        return a;
+        int n = a.size();
+        return a.substr(n - b) + a.substr(0 , n - b);
     }
     string findLexSmallestString(string s, int a, int b) {
         string ans = s;
