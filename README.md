@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Heman1223/Leetcode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1306-jump-game-iii](https://github.com/Heman1223/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
+| [1345-jump-game-iv](https://github.com/Heman1223/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/Heman1223/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1306-jump-game-iii](https://github.com/Heman1223/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
+| [1345-jump-game-iv](https://github.com/Heman1223/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1345-jump-game-iv](https://github.com/Heman1223/Leetcode/tree/main/1345-jump-game-iv/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2784-check-if-array-is-good](https://github.com/Heman1223/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
