@@ -13,14 +13,6 @@ public:
                 i++;
             }
         }
-        while(i < n){
-            if(nums1[i] == nums2[j - 1]) return nums1[i];
-            i++;
-        }
-        while(j < m){
-            if(nums1[i - 1] == nums2[j]) return nums1[i - 1];
-            j++;
-        }
         return -1;
     }
 };
