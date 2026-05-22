@@ -15,17 +15,18 @@ public:
         ListNode* curr = ans;
         ListNode* curr1 = l1;
         ListNode* curr2 = l2;
-        int sum = 0,carry = 0;
-        while(curr1 || curr2 || carry) {
+        int sum = 0, carry = 0;
+        while(curr1 || curr2 || carry){
             int val1 = curr1 ? curr1->val : 0;
             int val2 = curr2 ? curr2->val : 0;
+
             sum = val1 + val2 + carry;
-            carry = sum / 10;
-            sum = sum % 10;
+            carry = sum/10;
+            sum = sum%10;
             curr->next = new ListNode(sum);
             curr = curr->next;
-            if(curr1) curr1 = curr1->next;
-            if(curr2) curr2 = curr2->next;
+            if (curr1) curr1 = curr1->next;
+            if (curr2) curr2 = curr2->next;
         }
         return ans->next;
     }
