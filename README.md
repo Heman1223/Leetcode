@@ -396,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/Heman1223/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Heman1223/Leetcode/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0023-merge-k-sorted-lists](https://github.com/Heman1223/Leetcode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0025-reverse-nodes-in-k-group](https://github.com/Heman1223/Leetcode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/Heman1223/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0148-sort-list](https://github.com/Heman1223/Leetcode/tree/main/0148-sort-list/) | Medium |
 ## Merge Sort
@@ -421,4 +422,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Heman1223/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/Heman1223/Leetcode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 <!---LeetCode Topics End-->
