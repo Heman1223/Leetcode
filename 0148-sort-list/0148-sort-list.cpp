@@ -9,8 +9,8 @@
  * };
  */
 class Solution {
-private:
-    ListNode* merge(ListNode* l1,ListNode* l2){
+public:
+ListNode* merge(ListNode* l1,ListNode* l2){
         ListNode* dummy = new ListNode(0);
         ListNode* tail = dummy;
         while(l1 && l2){
@@ -27,21 +27,23 @@ private:
         if(l2) tail->next = l2;
         return dummy->next;
     }
-public:
     ListNode* sortList(ListNode* head) {
-        if(!head || !head->next) return head;
+        if(!head || !head->next){
+            return head;
+        }
         ListNode* slow = head;
         ListNode* fast = head->next;
+
         while(fast && fast->next){
-            slow = slow->next;
             fast = fast->next->next;
+            slow = slow->next;
         }
         ListNode* mid = slow->next;
         slow->next = NULL;
-        
+
         ListNode* left = sortList(head);
         ListNode* right = sortList(mid);
-        return merge(left,right);
 
+        return merge(left,right);
     }
 };
