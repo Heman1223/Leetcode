@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0200-number-of-islands](https://github.com/Heman1223/Leetcode/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/Heman1223/Leetcode/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/Heman1223/Leetcode/tree/main/0210-course-schedule-ii/) | Medium |
@@ -173,6 +174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
+| [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0678-valid-parenthesis-string](https://github.com/Heman1223/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/Heman1223/Leetcode/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
@@ -424,4 +426,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Heman1223/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/Heman1223/Leetcode/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 <!---LeetCode Topics End-->
