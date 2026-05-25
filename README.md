@@ -246,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0078-subsets](https://github.com/Heman1223/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/Heman1223/Leetcode/tree/main/0090-subsets-ii/) | Medium |
+| [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/Heman1223/Leetcode/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Heman1223/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
 ## Dynamic Programming
@@ -322,6 +323,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Heman1223/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2540-minimum-common-value](https://github.com/Heman1223/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
@@ -430,8 +432,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
+| [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 <!---LeetCode Topics End-->
