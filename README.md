@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/Heman1223/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/Heman1223/Leetcode/tree/main/0090-subsets-ii/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Heman1223/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0128-longest-consecutive-sequence](https://github.com/Heman1223/Leetcode/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0135-candy](https://github.com/Heman1223/Leetcode/tree/main/0135-candy/) | Hard |
 | [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
@@ -263,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0045-jump-game-ii](https://github.com/Heman1223/Leetcode/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Heman1223/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/Heman1223/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0152-maximum-product-subarray](https://github.com/Heman1223/Leetcode/tree/main/0152-maximum-product-subarray/) | Medium |
