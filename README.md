@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Heman1223/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/Heman1223/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/Heman1223/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0733-flood-fill](https://github.com/Heman1223/Leetcode/tree/main/0733-flood-fill/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/Heman1223/Leetcode/tree/main/0746-min-cost-climbing-stairs/) | Easy |
@@ -221,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/Heman1223/Leetcode/tree/main/0139-word-break/) | Medium |
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/Heman1223/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Heman1223/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -311,6 +313,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/Heman1223/Leetcode/tree/main/0238-product-of-array-except-self/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/Heman1223/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Heman1223/Leetcode/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/Heman1223/Leetcode/tree/main/1732-find-the-highest-altitude/) | Easy |
