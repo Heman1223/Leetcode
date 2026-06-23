@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/Heman1223/Leetcode/tree/main/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/Heman1223/Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/Heman1223/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0053-maximum-subarray](https://github.com/Heman1223/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0078-subsets](https://github.com/Heman1223/Leetcode/tree/main/0078-subsets/) | Medium |
@@ -269,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/Heman1223/Leetcode/tree/main/0042-trapping-rain-water/) | Hard |
 | [0045-jump-game-ii](https://github.com/Heman1223/Leetcode/tree/main/0045-jump-game-ii/) | Medium |
+| [0053-maximum-subarray](https://github.com/Heman1223/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Heman1223/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/Heman1223/Leetcode/tree/main/0131-palindrome-partitioning/) | Medium |
@@ -303,6 +305,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Heman1223/Leetcode/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0053-maximum-subarray](https://github.com/Heman1223/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0148-sort-list](https://github.com/Heman1223/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/Heman1223/Leetcode/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
