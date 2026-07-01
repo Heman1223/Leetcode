@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0047-permutations-ii](https://github.com/Heman1223/Leetcode/tree/main/0047-permutations-ii/) | Medium |
 | [0048-rotate-image](https://github.com/Heman1223/Leetcode/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/Heman1223/Leetcode/tree/main/0049-group-anagrams/) | Medium |
+| [0051-n-queens](https://github.com/Heman1223/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0053-maximum-subarray](https://github.com/Heman1223/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -276,6 +277,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/Heman1223/Leetcode/tree/main/0040-combination-sum-ii/) | Medium |
 | [0046-permutations](https://github.com/Heman1223/Leetcode/tree/main/0046-permutations/) | Medium |
 | [0047-permutations-ii](https://github.com/Heman1223/Leetcode/tree/main/0047-permutations-ii/) | Medium |
+| [0051-n-queens](https://github.com/Heman1223/Leetcode/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/Heman1223/Leetcode/tree/main/0078-subsets/) | Medium |
 | [0090-subsets-ii](https://github.com/Heman1223/Leetcode/tree/main/0090-subsets-ii/) | Medium |
 | [0093-restore-ip-addresses](https://github.com/Heman1223/Leetcode/tree/main/0093-restore-ip-addresses/) | Medium |
