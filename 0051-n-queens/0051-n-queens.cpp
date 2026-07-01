@@ -1,69 +1,37 @@
 class Solution {
 public:
-    void addSolution(vector<vector<string>> &ans,vector<vector<string>> &board,int n){
-        vector<string> temp;
-        for(int i = 0;i<n;i++){
-            string row = "";
-            for(int j = 0;j < n;j++){
-                row += board[i][j];
-            }
-            temp.push_back(row);
+    bool safe(vector<string>&board,int r,int c){
+        int n = board.size();
+        for(int i = r-1; i >= 0;i--){
+            if(board[i][c] == 'Q') return false;
         }
-        ans.push_back(temp);
-    }
-
-    bool isSafe(int row,int col,vector<vector<string>> &board,int n){
-        //Row,Diagonal Left-Up,Diagonal Left-Down
-        int x = row;
-        int y = col;
-
-        //ROW
-        while(y >= 0){
-            if(board[x][y] == "Q"){
-                return false;
-            }
-            y--;
+        for(int i = r - 1,j = c+1;i >= 0 && j < n;i--,j++){
+            if(board[i][j] == 'Q') return false;
         }
-        x = row,y = col;
-
-        //Diagonal Left-Up
-        while(x >= 0 && y >= 0){
-            if(board[x][y] == "Q"){
-                return false;
-            }
-            x--;
-            y--;
-        }
-
-        x = row,y = col;
-        while(x < n && y >=0){
-            if(board[x][y] == "Q"){
-                return false;
-            }
-            x++;
-            y--;
+        for(int i = r - 1,j = c-1;i >= 0 && j >=0 ;i--,j--){
+            if(board[i][j] == 'Q') return false;
         }
         return true;
-
     }
-    void solve(vector<vector<string>> &ans,vector<vector<string>> &board,int col,int n){
-        if(col == n){
-            addSolution(ans,board,n);
+    void solve(int r,vector<string> board,vector<vector<string>>& ans,int n){
+        if(r == n){
+            ans.push_back(board);
             return;
         }
-        for(int row = 0;row < n;row++){
-            if(isSafe(row,col,board,n)){
-                board[row][col] = "Q";
-                solve(ans,board,col + 1,n);
-                board[row][col] = ".";
+        for(int i = 0;i < n;i++){
+            if(safe(board,r,i)){
+                board[r][i] = 'Q';
+                solve(r + 1,board,ans,n);
+                board[r][i] = '.';
             }
         }
-    }
 
+    }
     vector<vector<string>> solveNQueens(int n) {
-        vector<vector<string>> board(n,vector<string>(n,"."));
         vector<vector<string>> ans;
-        solve(ans,board,0,n);
+        vector<string> board(n,string(n,'.'));
+        solve(0,board,ans,n);
         return ans;
+
     }
 };
