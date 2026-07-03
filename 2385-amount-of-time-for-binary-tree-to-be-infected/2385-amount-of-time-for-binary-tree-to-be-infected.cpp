@@ -11,72 +11,53 @@
  */
 class Solution {
 public:
-    void parentMarker(TreeNode* root,unordered_map<TreeNode*,TreeNode*> &parent){
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* temp = q.front();
-            q.pop();
-            if(temp->left){
-                parent[temp->left] = temp;
-                q.push(temp->left);
-            }
-            if(temp->right){
-                parent[temp->right] = temp;
-                q.push(temp->right);
-            }
-        }
-    }
-
     int amountOfTime(TreeNode* root, int start) {
-        unordered_map<TreeNode*,TreeNode*> parent;
-        parentMarker(root,parent);
-        
-        unordered_map<TreeNode*,bool> vis;
+        // Step 1: Build an undirected adjacency list graph using a map
+        unordered_map<int, vector<int>> adj;
         queue<TreeNode*> q;
-        
         q.push(root);
-        TreeNode* str;
-        while(!q.empty()){
-            TreeNode* temp = q.front();
-            q.pop();
-            if(temp->val == start){
-                str = temp;
-            }
-            if(temp->left){
-                parent[temp->left] = temp;
-                q.push(temp->left);
-            }
-            if(temp->right){
-                parent[temp->right] = temp;
-                q.push(temp->right);
-            }
-        }
-       
-        q.push(str);
-        vis[str] = true;
-        int t = -1;
 
-        while(!q.empty()){
-            int size = q.size();
-            for(int i = 0;i < size;i++){
-                TreeNode* temp = q.front();
-                q.pop();
-                if(temp->left && !vis[temp->left]){
-                    q.push(temp->left);
-                    vis[temp->left] = true;
-                }
-                if(temp->right && !vis[temp->right]){
-                    q.push(temp->right);
-                    vis[temp->right] = true;
-                }
-                if(parent[temp] && !vis[parent[temp]]){
-                    q.push(parent[temp]);
-                    vis[parent[temp]] = true;
+        while (!q.empty()) {
+            TreeNode* curr = q.front();
+            q.pop();
+
+            if (curr->left) {
+                adj[curr->val].push_back(curr->left->val);
+                adj[curr->left->val].push_back(curr->val); // Undirected link
+                q.push(curr->left);
+            }
+            if (curr->right) {
+                adj[curr->val].push_back(curr->right->val);
+                adj[curr->right->val].push_back(curr->val); // Undirected link
+                q.push(curr->right);
+            }
+        }
+
+        // Step 2: BFS from the start node to find max distance
+        queue<int> qu;
+        unordered_set<int> visited; // Track visited nodes properly
+
+        qu.push(start);
+        visited.insert(start);
+        int minutes = -1; // Start at -1 because the initial state takes 0 minutes
+
+        while (!qu.empty()) {
+            int size = qu.size();
+            minutes++; // Increment time for each layer of infection
+
+            for (int i = 0; i < size; i++) {
+                int curr = qu.front();
+                qu.pop();
+
+                for (int neighbor : adj[curr]) {
+                    if (visited.find(neighbor) == visited.end()) {
+                        visited.insert(neighbor);
+                        qu.push(neighbor);
+                    }
                 }
             }
-            t++;
         }
-        return t;
+
+        return minutes;
     }
 };
