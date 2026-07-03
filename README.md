@@ -116,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1905-count-sub-islands](https://github.com/Heman1223/Leetcode/tree/main/1905-count-sub-islands/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/2812-find-the-safest-path-in-a-grid/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Heman1223/Leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
 ## Union-Find
@@ -270,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Heman1223/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Heman1223/Leetcode/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2540-minimum-common-value](https://github.com/Heman1223/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/Heman1223/Leetcode/tree/main/2657-find-the-prefix-common-array-of-two-arrays/) | Medium |
@@ -534,12 +537,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Heman1223/Leetcode/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
