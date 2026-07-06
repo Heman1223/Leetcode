@@ -10,26 +10,24 @@
  * };
  */
 class Solution {
+    unordered_map<int,int> m; // el -> index, for inorder
 public:
-    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int> inMap;
-        for(int i = 0; i < inorder.size() ; i++){
-            inMap[inorder[i]] = i;
-        }
-        TreeNode* root = buildTree(preorder,0,preorder.size() - 1,inorder,0,inorder.size() - 1,inMap);
-        
+    TreeNode* solve(vector<int>& preorder,int s,int e,int &idx){
+        if(s > e) return NULL;
+
+        int i = m[preorder[idx]];
+        TreeNode* root = new TreeNode(preorder[idx]);
+        idx++;
+        root->left = solve(preorder,s,i - 1,idx);
+        root->right = solve(preorder,i + 1,e,idx);
         return root;
     }
-
-    TreeNode* buildTree(vector<int> &preorder,int prestart,int preend,vector<int> &inorder,int instart,int inend,map<int,int> &inMap){
-        if(prestart > preend || instart > inend) return NULL;
-        TreeNode* root = new TreeNode(preorder[prestart]);
-        int inRoot = inMap[root->val];
-        int numLeft = inRoot - instart;
-
-        root->left = buildTree(preorder,prestart + 1,prestart + numLeft,inorder,instart,inRoot - 1,inMap);
-        root->right = buildTree(preorder,prestart + numLeft  + 1,preend,inorder,inRoot  + 1,inend,inMap); 
-
-        return root;
+    TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        int n = inorder.size();
+        for(int i = 0;i < n;i++){
+            m[inorder[i]] = i;
+        }
+        int idx = 0;
+        return solve(preorder,0,n - 1,idx);
     }
 };
