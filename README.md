@@ -212,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/Heman1223/Leetcode/tree/main/1784-check-if-binary-string-has-at-most-one-segment-of-ones/) | Easy |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Heman1223/Leetcode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/Heman1223/Leetcode/tree/main/2259-remove-digit-from-number-to-maximize-result/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Heman1223/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/Heman1223/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
@@ -440,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1625-lexicographically-smallest-string-after-applying-operations](https://github.com/Heman1223/Leetcode/tree/main/1625-lexicographically-smallest-string-after-applying-operations/) | Medium |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/Heman1223/Leetcode/tree/main/2259-remove-digit-from-number-to-maximize-result/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/Heman1223/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 ## Greedy
 | Problem Name | Difficulty |
@@ -456,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Heman1223/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Heman1223/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Heman1223/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2259-remove-digit-from-number-to-maximize-result](https://github.com/Heman1223/Leetcode/tree/main/2259-remove-digit-from-number-to-maximize-result/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
