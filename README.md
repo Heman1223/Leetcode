@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/Heman1223/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Heman1223/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/Heman1223/Leetcode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [1306-jump-game-iii](https://github.com/Heman1223/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/Heman1223/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Heman1223/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/Heman1223/Leetcode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
 | [0994-rotting-oranges](https://github.com/Heman1223/Leetcode/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -406,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/Heman1223/Leetcode/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0797-all-paths-from-source-to-target](https://github.com/Heman1223/Leetcode/tree/main/0797-all-paths-from-source-to-target/) | Medium |
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+| [0841-keys-and-rooms](https://github.com/Heman1223/Leetcode/tree/main/0841-keys-and-rooms/) | Medium |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Heman1223/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/Heman1223/Leetcode/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/Heman1223/Leetcode/tree/main/3286-find-a-safe-walk-through-a-grid/) | Medium |
