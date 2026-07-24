@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1091-shortest-path-in-binary-matrix](https://github.com/Heman1223/Leetcode/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/Heman1223/Leetcode/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1260-shift-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1260-shift-2d-grid/) | Easy |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Heman1223/Leetcode/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1288-remove-covered-intervals](https://github.com/Heman1223/Leetcode/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/Heman1223/Leetcode/tree/main/1299-replace-elements-with-greatest-element-on-right-side/) | Easy |
 | [1306-jump-game-iii](https://github.com/Heman1223/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
@@ -468,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/Heman1223/Leetcode/tree/main/0300-longest-increasing-subsequence/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/Heman1223/Leetcode/tree/main/0875-koko-eating-bananas/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/Heman1223/Leetcode/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Heman1223/Leetcode/tree/main/1283-find-the-smallest-divisor-given-a-threshold/) | Medium |
 | [1631-path-with-minimum-effort](https://github.com/Heman1223/Leetcode/tree/main/1631-path-with-minimum-effort/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Heman1223/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2540-minimum-common-value](https://github.com/Heman1223/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
