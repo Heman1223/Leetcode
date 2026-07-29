@@ -88,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Heman1223/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Heman1223/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Heman1223/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Heman1223/Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2498-frog-jump-ii](https://github.com/Heman1223/Leetcode/tree/main/2498-frog-jump-ii/) | Medium |
@@ -252,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/Heman1223/Leetcode/tree/main/1967-number-of-strings-that-appear-as-substrings-in-word/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/Heman1223/Leetcode/tree/main/2259-remove-digit-from-number-to-maximize-result/) | Easy |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Heman1223/Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/Heman1223/Leetcode/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2833-furthest-point-from-origin](https://github.com/Heman1223/Leetcode/tree/main/2833-furthest-point-from-origin/) | Easy |
@@ -323,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Heman1223/Leetcode/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1636-sort-array-by-increasing-frequency](https://github.com/Heman1223/Leetcode/tree/main/1636-sort-array-by-increasing-frequency/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Heman1223/Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/Heman1223/Leetcode/tree/main/2461-maximum-sum-of-distinct-subarrays-with-length-k/) | Medium |
 | [2540-minimum-common-value](https://github.com/Heman1223/Leetcode/tree/main/2540-minimum-common-value/) | Easy |
@@ -565,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Heman1223/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Heman1223/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Heman1223/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
+| [2273-find-resultant-array-after-removing-anagrams](https://github.com/Heman1223/Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2784-check-if-array-is-good](https://github.com/Heman1223/Leetcode/tree/main/2784-check-if-array-is-good/) | Easy |
 | [3536-maximum-product-of-two-digits](https://github.com/Heman1223/Leetcode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 ## Bucket Sort
