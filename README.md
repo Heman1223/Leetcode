@@ -375,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/Heman1223/Leetcode/tree/main/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Heman1223/Leetcode/tree/main/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/Heman1223/Leetcode/tree/main/0055-jump-game/) | Medium |
+| [0062-unique-paths](https://github.com/Heman1223/Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/Heman1223/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0115-distinct-subsequences](https://github.com/Heman1223/Leetcode/tree/main/0115-distinct-subsequences/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Heman1223/Leetcode/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -410,6 +411,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Heman1223/Leetcode/tree/main/0002-add-two-numbers/) | Medium |
 | [0048-rotate-image](https://github.com/Heman1223/Leetcode/tree/main/0048-rotate-image/) | Medium |
+| [0062-unique-paths](https://github.com/Heman1223/Leetcode/tree/main/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/Heman1223/Leetcode/tree/main/0070-climbing-stairs/) | Easy |
 | [0279-perfect-squares](https://github.com/Heman1223/Leetcode/tree/main/0279-perfect-squares/) | Medium |
 | [0396-rotate-function](https://github.com/Heman1223/Leetcode/tree/main/0396-rotate-function/) | Medium |
@@ -678,4 +680,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0877-stone-game](https://github.com/Heman1223/Leetcode/tree/main/0877-stone-game/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/Heman1223/Leetcode/tree/main/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
