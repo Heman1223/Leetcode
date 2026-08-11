@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/Heman1223/Leetcode/tree/main/0396-rotate-function/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/Heman1223/Leetcode/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/Heman1223/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/Heman1223/Leetcode/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0542-01-matrix](https://github.com/Heman1223/Leetcode/tree/main/0542-01-matrix/) | Medium |
 | [0560-subarray-sum-equals-k](https://github.com/Heman1223/Leetcode/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/Heman1223/Leetcode/tree/main/0061-rotate-list/) | Medium |
 | [0148-sort-list](https://github.com/Heman1223/Leetcode/tree/main/0148-sort-list/) | Medium |
 | [0283-move-zeroes](https://github.com/Heman1223/Leetcode/tree/main/0283-move-zeroes/) | Easy |
+| [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0647-palindromic-substrings](https://github.com/Heman1223/Leetcode/tree/main/0647-palindromic-substrings/) | Medium |
 | [0844-backspace-string-compare](https://github.com/Heman1223/Leetcode/tree/main/0844-backspace-string-compare/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/Heman1223/Leetcode/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
@@ -533,6 +535,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0135-candy](https://github.com/Heman1223/Leetcode/tree/main/0135-candy/) | Hard |
 | [0409-longest-palindrome](https://github.com/Heman1223/Leetcode/tree/main/0409-longest-palindrome/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/Heman1223/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0678-valid-parenthesis-string](https://github.com/Heman1223/Leetcode/tree/main/0678-valid-parenthesis-string/) | Medium |
 | [0860-lemonade-change](https://github.com/Heman1223/Leetcode/tree/main/0860-lemonade-change/) | Easy |
@@ -567,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/Heman1223/Leetcode/tree/main/0242-valid-anagram/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/Heman1223/Leetcode/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/Heman1223/Leetcode/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 | [0621-task-scheduler](https://github.com/Heman1223/Leetcode/tree/main/0621-task-scheduler/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/Heman1223/Leetcode/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
@@ -692,4 +696,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
+## Quicksort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
 <!---LeetCode Topics End-->
