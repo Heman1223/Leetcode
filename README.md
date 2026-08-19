@@ -704,4 +704,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0455-assign-cookies](https://github.com/Heman1223/Leetcode/tree/main/0455-assign-cookies/) | Easy |
+## Knapsack Problem
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/Heman1223/Leetcode/tree/main/0322-coin-change/) | Medium |
+## Complete Knapsack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0322-coin-change](https://github.com/Heman1223/Leetcode/tree/main/0322-coin-change/) | Medium |
 <!---LeetCode Topics End-->
