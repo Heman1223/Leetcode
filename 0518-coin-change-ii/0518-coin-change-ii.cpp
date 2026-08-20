@@ -1,21 +1,19 @@
 class Solution {
 public:
+    int solve(int i,int amount,vector<int>& coins,vector<vector<int>> &dp){
+        if(i == coins.size() || amount < 0){
+            return 0;
+        }
+        if(amount == 0){
+            return 1;
+        }
+        if(dp[i][amount] != -1) return dp[i][amount];
+        int take = solve(i,amount - coins[i],coins,dp);
+        int notTake = solve(i + 1,amount,coins,dp);
+        return dp[i][amount] = take + notTake;
+    }
     int change(int amount, vector<int>& coins) {
-        int n= coins.size();
-        vector<vector<unsigned int>> dp(n  + 1,vector<unsigned int> (amount + 1,0));
-        for(int i=0; i<=n; i++){
-             dp[i][0]=1;
-        }
-        for(int i=1; i<=n; i++){
-            for(int j=0; j<=amount; j++){
-                if(coins[i-1]>j){
-                    dp[i][j]=dp[i-1][j];
-                }
-                else{
-                    dp[i][j]= dp[i-1][j]+dp[i][j-coins[i-1]];
-                }
-            }
-        }
-        return dp[n][amount];
+        vector<vector<int>> dp(coins.size(),vector<int> (amount + 1,-1));
+        return solve(0,amount,coins,dp);
     }
 };
