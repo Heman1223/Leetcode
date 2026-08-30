@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/Heman1223/Leetcode/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/Heman1223/Leetcode/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Heman1223/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Heman1223/Leetcode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Heman1223/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2273-find-resultant-array-after-removing-anagrams](https://github.com/Heman1223/Leetcode/tree/main/2273-find-resultant-array-after-removing-anagrams/) | Easy |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/Heman1223/Leetcode/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
@@ -553,6 +554,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1529-minimum-suffix-flips](https://github.com/Heman1223/Leetcode/tree/main/1529-minimum-suffix-flips/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/Heman1223/Leetcode/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/Heman1223/Leetcode/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2091-removing-minimum-and-maximum-from-array](https://github.com/Heman1223/Leetcode/tree/main/2091-removing-minimum-and-maximum-from-array/) | Medium |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/Heman1223/Leetcode/tree/main/2144-minimum-cost-of-buying-candies-with-discount/) | Easy |
 | [2259-remove-digit-from-number-to-maximize-result](https://github.com/Heman1223/Leetcode/tree/main/2259-remove-digit-from-number-to-maximize-result/) | Easy |
 | [2498-frog-jump-ii](https://github.com/Heman1223/Leetcode/tree/main/2498-frog-jump-ii/) | Medium |
