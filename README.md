@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/Heman1223/Leetcode/tree/main/3740-minimum-distance-between-three-equal-elements-i/) | Easy |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/Heman1223/Leetcode/tree/main/3741-minimum-distance-between-three-equal-elements-ii/) | Medium |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Heman1223/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
+| [3875-construct-uniform-parity-array-i](https://github.com/Heman1223/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -440,6 +441,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3536-maximum-product-of-two-digits](https://github.com/Heman1223/Leetcode/tree/main/3536-maximum-product-of-two-digits/) | Easy |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/Heman1223/Leetcode/tree/main/3754-concatenate-non-zero-digits-and-multiply-by-sum-i/) | Easy |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Heman1223/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
+| [3875-construct-uniform-parity-array-i](https://github.com/Heman1223/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
