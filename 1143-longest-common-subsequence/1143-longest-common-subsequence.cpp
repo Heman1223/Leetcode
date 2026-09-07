@@ -4,14 +4,12 @@ public:
         if(i == text1.size() || j == text2.size()){
             return 0;
         }
-        if(dp[i][j] != -1){
-            return dp[i][j];
-        }
+        if(dp[i][j] != -1) return dp[i][j];
         if(text1[i] == text2[j]){
-            return dp[i][j] = 1 + solve(i + 1,j + 1,text1,text2,dp);
+            return dp[i][j] = solve(i + 1,j + 1,text1,text2,dp) + 1;
         }
-        int l = solve(i + 1, j, text1,text2,dp);
-        int r = solve(i , j + 1, text1,text2,dp);
+        int l = solve(i + 1,j,text1,text2,dp);
+        int r = solve(i ,j + 1,text1,text2,dp);
         return dp[i][j] = max(l,r);
     }
     int longestCommonSubsequence(string text1, string text2) {
