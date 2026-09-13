@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3483-unique-3-digit-even-numbers](https://github.com/Heman1223/Leetcode/tree/main/3483-unique-3-digit-even-numbers/) | Easy |
 | [3546-equal-sum-grid-partition-i](https://github.com/Heman1223/Leetcode/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3660-jump-game-ix](https://github.com/Heman1223/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
+| [3693-climbing-stairs-ii](https://github.com/Heman1223/Leetcode/tree/main/3693-climbing-stairs-ii/) | Medium |
 | [3712-sum-of-elements-with-frequency-divisible-by-k](https://github.com/Heman1223/Leetcode/tree/main/3712-sum-of-elements-with-frequency-divisible-by-k/) | Easy |
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Heman1223/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
@@ -426,6 +427,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Heman1223/Leetcode/tree/main/1976-number-of-ways-to-arrive-at-destination/) | Medium |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Heman1223/Leetcode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3660-jump-game-ix](https://github.com/Heman1223/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
+| [3693-climbing-stairs-ii](https://github.com/Heman1223/Leetcode/tree/main/3693-climbing-stairs-ii/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
