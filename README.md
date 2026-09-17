@@ -143,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0802-find-eventual-safe-states](https://github.com/Heman1223/Leetcode/tree/main/0802-find-eventual-safe-states/) | Medium |
 | [0841-keys-and-rooms](https://github.com/Heman1223/Leetcode/tree/main/0841-keys-and-rooms/) | Medium |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Heman1223/Leetcode/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [1306-jump-game-iii](https://github.com/Heman1223/Leetcode/tree/main/1306-jump-game-iii/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/Heman1223/Leetcode/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/Heman1223/Leetcode/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -679,6 +680,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/Heman1223/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Heman1223/Leetcode/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Heman1223/Leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Binary Tree
@@ -691,6 +693,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/Heman1223/Leetcode/tree/main/0124-binary-tree-maximum-path-sum/) | Hard |
 | [0222-count-complete-tree-nodes](https://github.com/Heman1223/Leetcode/tree/main/0222-count-complete-tree-nodes/) | Easy |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Heman1223/Leetcode/tree/main/0987-vertical-order-traversal-of-a-binary-tree/) | Hard |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Heman1223/Leetcode/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 | [2265-count-nodes-equal-to-average-of-subtree](https://github.com/Heman1223/Leetcode/tree/main/2265-count-nodes-equal-to-average-of-subtree/) | Medium |
 | [2385-amount-of-time-for-binary-tree-to-be-infected](https://github.com/Heman1223/Leetcode/tree/main/2385-amount-of-time-for-binary-tree-to-be-infected/) | Medium |
 ## Queue
@@ -756,4 +759,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0836-rectangle-overlap](https://github.com/Heman1223/Leetcode/tree/main/0836-rectangle-overlap/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1038-binary-search-tree-to-greater-sum-tree](https://github.com/Heman1223/Leetcode/tree/main/1038-binary-search-tree-to-greater-sum-tree/) | Medium |
 <!---LeetCode Topics End-->
