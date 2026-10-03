@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3875-construct-uniform-parity-array-i](https://github.com/Heman1223/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3903-smallest-stable-index-i](https://github.com/Heman1223/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Heman1223/Leetcode/tree/main/4061-minimum-queen-moves-to-reach-target/) | Easy |
+| [4062-transform-array-using-pair-operations](https://github.com/Heman1223/Leetcode/tree/main/4062-transform-array-using-pair-operations/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -786,4 +787,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/Heman1223/Leetcode/tree/main/1614-maximum-nesting-depth-of-the-parentheses/) | Easy |
+## Brainteaser
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [4062-transform-array-using-pair-operations](https://github.com/Heman1223/Leetcode/tree/main/4062-transform-array-using-pair-operations/) | Medium |
 <!---LeetCode Topics End-->
