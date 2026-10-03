@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/Heman1223/Leetcode/tree/main/3761-minimum-absolute-distance-between-mirror-pairs/) | Medium |
 | [3875-construct-uniform-parity-array-i](https://github.com/Heman1223/Leetcode/tree/main/3875-construct-uniform-parity-array-i/) | Easy |
 | [3903-smallest-stable-index-i](https://github.com/Heman1223/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/Heman1223/Leetcode/tree/main/4058-maximum-pulse-value-after-one-subarray-rotation/) | Medium |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/Heman1223/Leetcode/tree/main/4061-minimum-queen-moves-to-reach-target/) | Easy |
 | [4062-transform-array-using-pair-operations](https://github.com/Heman1223/Leetcode/tree/main/4062-transform-array-using-pair-operations/) | Medium |
 ## Depth-First Search
@@ -445,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/Heman1223/Leetcode/tree/main/2770-maximum-number-of-jumps-to-reach-the-last-index/) | Medium |
 | [3660-jump-game-ix](https://github.com/Heman1223/Leetcode/tree/main/3660-jump-game-ix/) | Medium |
 | [3693-climbing-stairs-ii](https://github.com/Heman1223/Leetcode/tree/main/3693-climbing-stairs-ii/) | Medium |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/Heman1223/Leetcode/tree/main/4058-maximum-pulse-value-after-one-subarray-rotation/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -503,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3719-longest-balanced-subarray-i](https://github.com/Heman1223/Leetcode/tree/main/3719-longest-balanced-subarray-i/) | Medium |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/Heman1223/Leetcode/tree/main/3737-count-subarrays-with-majority-element-i/) | Medium |
 | [3903-smallest-stable-index-i](https://github.com/Heman1223/Leetcode/tree/main/3903-smallest-stable-index-i/) | Easy |
+| [4058-maximum-pulse-value-after-one-subarray-rotation](https://github.com/Heman1223/Leetcode/tree/main/4058-maximum-pulse-value-after-one-subarray-rotation/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
